@@ -1,0 +1,19 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 var(--space-12);
+  border-radius: var(--radius-pill-sm);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.open {
+  background: var(--color-primary-10);
+  color: var(--color-primary);
+}
+
+.closed {
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+}

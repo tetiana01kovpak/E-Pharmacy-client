@@ -1,0 +1,331 @@
+/* Log in page */
+
+position: relative;
+width: 375px;
+height: 812px;
+
+background: #F7F8FA;
+
+
+/* Your medication, delivered Say goodbye to all your healthcare worries with us */
+
+position: absolute;
+width: 335px;
+height: 136px;
+left: 20px;
+top: 163px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+/* or 121% */
+
+color: #1D1E21;
+
+
+
+/* white round pill */
+
+position: absolute;
+width: 95px;
+height: 93px;
+left: 240px;
+top: 107px;
+
+background: url(.png);
+
+
+/* email */
+
+position: absolute;
+width: 335px;
+height: 44px;
+left: 20px;
+top: 319px;
+
+
+
+/* Rectangle 42207 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 335px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 79px;
+height: 18px;
+left: 18px;
+top: 13px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+
+/* password */
+
+position: absolute;
+width: 335px;
+height: 44px;
+left: 20px;
+top: 373px;
+
+
+
+/* Rectangle 42209 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 335px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 56px;
+height: 18px;
+left: 18px;
+top: 13px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+
+/* elements */
+
+position: absolute;
+width: 264px;
+height: 249px;
+left: 159px;
+top: 644px;
+
+
+
+/* Rectangle 42212 */
+
+position: absolute;
+width: 222.37px;
+height: 47.17px;
+left: 39.97px;
+top: 122.08px;
+
+background: rgba(89, 177, 122, 0.08);
+border-radius: 60px 0px 0px 60px;
+transform: rotate(22deg);
+
+
+/* Rectangle 42214 */
+
+position: absolute;
+width: 222.37px;
+height: 47.17px;
+left: 105.11px;
+top: 21px;
+
+background: rgba(89, 177, 122, 0.08);
+border-radius: 60px 0px 0px 60px;
+transform: rotate(22deg);
+
+
+/* Rectangle 42213 */
+
+position: absolute;
+width: 222.37px;
+height: 47.17px;
+left: 22px;
+top: 51.32px;
+
+background: rgba(89, 177, 122, 0.08);
+border-radius: 60px 0px 0px 60px;
+transform: rotate(22deg);
+
+
+/* btns */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 335px;
+height: 76px;
+left: calc(50% - 335px/2);
+top: 545px;
+
+
+
+/* block */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 147px;
+gap: 8px;
+
+width: 335px;
+height: 44px;
+
+background: #59B17A;
+border-radius: 60px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Log in */
+
+width: 41px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 133px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 135px;
+height: 32px;
+left: 20px;
+top: 25px;
+
+
+
+/* Mask group */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 1 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* image 2 */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, #59B17A, #59B17A), url(image.png);
+
+
+/* E-Pharmacy */
+
+width: 91px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.03em;
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

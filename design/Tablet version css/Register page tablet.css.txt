@@ -1,0 +1,419 @@
+/* Register page */
+
+position: relative;
+width: 768px;
+height: 1024px;
+
+background: #F7F8FA;
+
+
+/* Your medication, delivered Say goodbye to all your healthcare worries with us */
+
+position: absolute;
+width: 614px;
+height: 240px;
+left: 32px;
+top: 240px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 60px;
+/* or 111% */
+
+color: #1D1E21;
+
+
+
+/* logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 172px;
+height: 44px;
+left: 32px;
+top: 28px;
+
+
+
+/* Mask group */
+
+width: 44px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 1 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* image 2 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, #59B17A, #59B17A), url(image.png);
+
+
+/* E-Pharmacy */
+
+width: 114px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.03em;
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* white round pill */
+
+position: absolute;
+width: 179px;
+height: 175px;
+left: 448px;
+top: 136px;
+
+background: url(.png);
+
+
+/* full name */
+
+position: absolute;
+width: 280px;
+height: 44px;
+left: 32px;
+top: 534px;
+
+
+
+/* Rectangle 42204 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 280px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 64px;
+height: 18px;
+left: 18px;
+top: 13px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+
+/* email */
+
+position: absolute;
+width: 280px;
+height: 44px;
+left: 326px;
+top: 534px;
+
+
+
+/* Rectangle 42207 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 280px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 79px;
+height: 18px;
+left: 18px;
+top: 13px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+
+/* phone */
+
+position: absolute;
+width: 280px;
+height: 44px;
+left: 32px;
+top: 592px;
+
+
+
+/* Rectangle 42208 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 280px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 83px;
+height: 18px;
+left: 18px;
+top: 13px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+
+/* password */
+
+position: absolute;
+width: 280px;
+height: 44px;
+left: 326px;
+top: 592px;
+
+
+
+/* Rectangle 42209 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 280px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 56px;
+height: 18px;
+left: 18px;
+top: 13px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 280px;
+height: 76px;
+left: 32px;
+top: 698px;
+
+
+
+/* block */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 112px;
+gap: 8px;
+
+width: 280px;
+height: 44px;
+
+background: #59B17A;
+border-radius: 60px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Register */
+
+width: 56px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 146px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* elements */
+
+position: absolute;
+width: 464.39px;
+height: 345.11px;
+left: 491px;
+top: 753px;
+
+
+
+/* Rectangle 42212 */
+
+position: absolute;
+width: 336.42px;
+height: 71.36px;
+left: 27.18px;
+top: 152.92px;
+
+background: rgba(89, 177, 122, 0.08);
+border-radius: 60px 0px 0px 60px;
+transform: rotate(22deg);
+
+
+/* Rectangle 42214 */
+
+position: absolute;
+width: 336.42px;
+height: 71.36px;
+left: 125.73px;
+top: 0px;
+
+background: rgba(89, 177, 122, 0.08);
+border-radius: 60px 0px 0px 60px;
+transform: rotate(22deg);
+
+
+/* Rectangle 42213 */
+
+position: absolute;
+width: 336.42px;
+height: 71.36px;
+left: 0px;
+top: 45.88px;
+
+background: rgba(89, 177, 122, 0.08);
+border-radius: 60px 0px 0px 60px;
+transform: rotate(22deg);

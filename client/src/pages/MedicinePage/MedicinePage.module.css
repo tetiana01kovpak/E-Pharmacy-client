@@ -1,0 +1,54 @@
+.page {
+  padding-block: 40px 80px;
+}
+
+.filterBar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  margin-top: 24px;
+}
+
+.filterBtn {
+  align-self: flex-start;
+}
+
+@media (min-width: 768px) {
+  .filterBar {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .filterBar > * {
+    flex: 1;
+  }
+
+  .filterBtn {
+    flex: none;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1440px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.emptyState {
+  margin-top: 48px;
+  text-align: center;
+  color: var(--color-text-muted-60);
+}

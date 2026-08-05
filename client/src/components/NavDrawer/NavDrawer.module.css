@@ -1,0 +1,90 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+}
+
+.scrim {
+  position: absolute;
+  inset: 0;
+  background: var(--color-scrim);
+  border: none;
+}
+
+.drawer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 56%;
+  background: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px 40px;
+}
+
+@media (min-width: 768px) {
+  .drawer {
+    width: 43.5%;
+    padding: 32px 24px 48px;
+  }
+}
+
+.closeBtn {
+  align-self: flex-end;
+  color: var(--color-surface);
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-14);
+  margin-top: 60px;
+}
+
+.navLink {
+  display: inline-flex;
+  padding: 8px 20px;
+  border-radius: var(--radius-pill-sm);
+  color: var(--color-surface);
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+
+.navLink.active {
+  border-color: var(--color-surface);
+}
+
+.authArea {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-14);
+}
+
+.registerBtn {
+  padding: 8px 18px;
+  border-radius: var(--radius-secondary-btn);
+  border: 1px solid var(--color-surface);
+  color: var(--color-surface);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.loginLink {
+  color: var(--color-surface);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.logoutBtn {
+  padding: 8px 18px;
+  border-radius: var(--radius-secondary-btn);
+  border: 1px solid var(--color-surface);
+  color: var(--color-surface);
+  font-size: 14px;
+  font-weight: 500;
+}

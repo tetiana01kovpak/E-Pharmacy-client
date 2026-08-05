@@ -1,0 +1,27 @@
+.page {
+  padding-block: 40px 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1440px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.emptyState {
+  margin-top: 32px;
+  color: var(--color-text-muted-60);
+}

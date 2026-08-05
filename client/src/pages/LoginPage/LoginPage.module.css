@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-14);
+  width: 100%;
+  max-width: 320px;
+}
+
+.switchLink {
+  font-size: 13px;
+  color: var(--color-text-muted-60);
+  text-align: center;
+}
+
+.switchLink a {
+  color: var(--color-primary);
+  font-weight: 500;
+}

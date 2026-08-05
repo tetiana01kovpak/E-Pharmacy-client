@@ -1,0 +1,28 @@
+.compact {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-6);
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.starsRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.starFilled {
+  color: var(--color-warning);
+}
+
+.starEmpty {
+  color: var(--color-hairline);
+}
+
+.badge {
+  margin-left: var(--space-6);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-text);
+}

@@ -1,0 +1,88 @@
+.page {
+  padding-block: 40px 80px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.shippingCard,
+.itemsCard {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: 32px;
+}
+
+.shippingCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.helperText {
+  font-size: 13px;
+  color: var(--color-text-muted-60);
+  margin-bottom: var(--space-8);
+}
+
+.fieldsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-14);
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-hairline);
+  margin: var(--space-14) 0;
+}
+
+.paymentOptions {
+  display: flex;
+  gap: 24px;
+}
+
+.radioOption {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  font-size: 14px;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-primary-10);
+  border-radius: var(--radius-xs);
+  padding: var(--space-14) var(--space-18);
+  margin-bottom: var(--space-8);
+}
+
+.emptyState {
+  color: var(--color-text-muted-60);
+}
+
+@media (min-width: 768px) {
+  .fieldsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1440px) {
+  .layout {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .shippingCard {
+    flex: 0 0 628px;
+  }
+
+  .itemsCard {
+    flex: 1;
+  }
+}

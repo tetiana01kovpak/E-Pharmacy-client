@@ -1,0 +1,70 @@
+:root {
+  /* Colors */
+  --color-primary: #59b17a;
+  --color-primary-hover: #3f945f;
+  --color-primary-10: rgba(89, 177, 122, 0.1);
+  --color-primary-50: rgba(89, 177, 122, 0.5);
+  --color-primary-60: rgba(89, 177, 122, 0.6);
+  --color-badge-bg: #e7f1ed;
+
+  --color-text: #1d1e21;
+  --color-text-muted-40: rgba(29, 30, 33, 0.4);
+  --color-text-muted-60: rgba(29, 30, 33, 0.6);
+  --color-text-disabled: #93939a;
+
+  --color-border-default: rgba(29, 30, 33, 0.2);
+  --color-border-subtle: rgba(29, 30, 33, 0.1);
+  --color-border-black-10: rgba(0, 0, 0, 0.1);
+
+  --color-bg: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f7f7f7;
+  --color-surface-card: #fdfdfd;
+  --color-store-card: #e7f1ed;
+  --color-hairline: #f1f1f1;
+
+  --color-danger: #e85050;
+  --color-danger-bg: rgba(232, 80, 80, 0.1);
+  --color-warning: #ffc531;
+
+  --color-scrim: rgba(29, 30, 33, 0.45);
+  --shadow-color: rgba(71, 71, 71, 0.05);
+
+  /* Typography */
+  --font-family: 'Inter', sans-serif;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-modal: 20px;
+  --radius-pill-sm: 24px;
+  --radius-card: 27px;
+  --radius-secondary-btn: 30px;
+  --radius-banner: 32px;
+  --radius-danger-btn: 40px;
+  --radius-full: 60px;
+
+  /* Spacing scale */
+  --space-2: 2px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-18: 18px;
+
+  /* Layout */
+  --container-max: 1248px;
+  --container-padding: 20px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --container-padding: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --container-padding: 96px;
+  }
+}

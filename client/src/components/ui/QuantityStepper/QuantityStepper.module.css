@@ -1,0 +1,33 @@
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 108px;
+  height: 44px;
+  padding: 0 var(--space-14);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+}
+
+.stepBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: var(--color-text);
+}
+
+.stepBtn:disabled {
+  color: var(--color-text-muted-40);
+  cursor: not-allowed;
+}
+
+.value {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-text);
+  min-width: 20px;
+  text-align: center;
+}

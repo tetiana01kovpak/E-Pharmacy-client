@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  background: var(--color-surface);
+  border: 1px solid var(--color-primary-50);
+  border-radius: var(--radius-xs);
+  padding: var(--space-18);
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-xs);
+  background: var(--color-surface-alt);
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.brand {
+  font-size: 12px;
+  color: var(--color-text-muted-60);
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--space-8);
+}
+
+.detailsLink {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: underline;
+}

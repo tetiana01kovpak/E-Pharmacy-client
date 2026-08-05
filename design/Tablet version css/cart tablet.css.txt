@@ -1,0 +1,1989 @@
+/* Cart */
+
+position: relative;
+width: 768px;
+height: 1917px;
+
+background: #F7F8FA;
+
+
+/* logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 172px;
+height: 44px;
+left: 32px;
+top: 28px;
+
+
+
+/* Mask group */
+
+width: 44px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 1 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* image 2 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, #59B17A, #59B17A), url(image.png);
+
+
+/* E-Pharmacy */
+
+width: 114px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.03em;
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* icons */
+
+position: absolute;
+width: 46px;
+height: 46px;
+left: 590px;
+top: 28px;
+
+
+
+/* cart */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 2px;
+
+
+
+/* Ellipse 14 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 2px;
+
+background: #FFFFFF;
+border: 1px solid #F1F1F1;
+
+
+/* shopping-cart */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 14px;
+top: 16px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.35%;
+right: 58.32%;
+top: 83.33%;
+bottom: 8.34%;
+
+border: 1.5px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 79.15%;
+right: 12.52%;
+top: 83.33%;
+bottom: 8.34%;
+
+border: 1.5px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.15%;
+right: 4.18%;
+top: 4.17%;
+bottom: 33.33%;
+
+border: 1.5px solid #59B17A;
+
+
+/* 2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 30px;
+top: 0px;
+
+
+
+/* Ellipse 517 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 30px;
+top: 0px;
+
+background: #E7F1ED;
+
+
+/* 0 */
+
+position: absolute;
+width: 9px;
+height: 15px;
+left: 34px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #59B17A;
+
+
+
+/* user */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 644px;
+top: 29px;
+
+
+
+/* Ellipse 518 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: rgba(89, 177, 122, 0.1);
+
+
+/* I */
+
+position: absolute;
+width: 5px;
+height: 25px;
+left: 20px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #59B17A;
+
+
+
+/* align-justify */
+
+position: absolute;
+width: 32px;
+height: 26px;
+left: 704px;
+top: 38px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 13.56%;
+right: 11.44%;
+top: 50.8%;
+bottom: 49.2%;
+
+border: 2px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.56%;
+right: 11.44%;
+top: 30.8%;
+bottom: 69.2%;
+
+border: 2px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.56%;
+right: 11.44%;
+top: 70.8%;
+bottom: 29.2%;
+
+border: 2px solid #59B17A;
+
+
+/* Cart */
+
+position: absolute;
+width: 60px;
+height: 32px;
+left: 32px;
+top: 152px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height, or 114% */
+
+color: #1D1E21;
+
+
+
+/* footer */
+
+position: absolute;
+width: 768px;
+height: 328px;
+left: calc(50% - 768px/2);
+bottom: 0px;
+
+
+
+/* Rectangle 42211 */
+
+position: absolute;
+width: 768px;
+height: 328px;
+left: calc(50% - 768px/2);
+bottom: 0px;
+
+background: #59B17A;
+
+
+/* Socials */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 75.52%;
+right: 4.17%;
+top: 28.35%;
+bottom: 58.23%;
+
+
+
+/* facebook */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 44px;
+height: 44px;
+
+border: 1px solid rgba(247, 248, 250, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icons / 40x40 / facebook */
+
+width: 28px;
+height: 28px;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 52 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 36.25%;
+right: 36%;
+top: 14.25%;
+bottom: 15.5%;
+
+background: #F7F8FA;
+
+
+/* instagram */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+
+width: 44px;
+height: 44px;
+
+border: 1px solid rgba(247, 248, 250, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* icons / 40x40 / instagram */
+
+width: 28px;
+height: 28px;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10%;
+right: 10%;
+top: 10%;
+bottom: 10%;
+
+background: #F7F8FA;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.46%;
+right: 37.51%;
+top: 37.4%;
+bottom: 37.58%;
+
+background: #F7F8FA;
+
+
+/* youtube */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+
+width: 44px;
+height: 44px;
+
+border: 1px solid rgba(247, 248, 250, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* icons / 40x40 / youtube */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 60 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0.8;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.75%;
+right: 6.25%;
+top: 18.25%;
+bottom: 19.5%;
+
+background: #F7F8FA;
+
+
+/* menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 296px;
+height: 20px;
+left: calc(50% - 296px/2 + 204px);
+top: 41px;
+
+
+
+/* about */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 46px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Home */
+
+width: 46px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* support */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 115px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Medicine store */
+
+width: 115px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* platform */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 71px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Medicine */
+
+width: 71px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Info */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 591px;
+height: 20px;
+left: calc(50% - 591px/2 - 0.5px);
+top: 276px;
+
+
+
+/* Text */
+
+width: 272px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 699 */
+
+width: 1px;
+height: 20px;
+
+background: #F7F8FA;
+opacity: 0.2;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 92px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 700 */
+
+width: 1px;
+height: 20px;
+
+background: #F7F8FA;
+opacity: 0.2;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 129px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector 50 */
+
+position: absolute;
+width: 704px;
+height: 0px;
+left: calc(50% - 704px/2);
+top: 244px;
+
+border: 1px solid rgba(247, 248, 250, 0.3);
+
+
+/* logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 172px;
+height: 44px;
+left: 32px;
+top: 32px;
+
+
+
+/* Mask group */
+
+width: 44px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 1 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* image 2 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, #F7F8FA, #F7F8FA), url(image.png);
+
+
+/* E-Pharmacy */
+
+width: 114px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.03em;
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Get the medicine to help you feel better, get back to your active life, and enjoy every moment. */
+
+position: absolute;
+width: 261px;
+height: 60px;
+left: 32px;
+top: 96px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+color: #F7F8FA;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 704px;
+height: 883px;
+left: calc(50% - 704px/2);
+top: 216px;
+
+background: #FFFFFF;
+border-radius: 27px;
+
+
+/* Vector 51 */
+
+position: absolute;
+width: 548px;
+height: 0px;
+left: calc(50% - 548px/2);
+top: 578px;
+
+border: 1px solid rgba(29, 30, 33, 0.1);
+
+
+/* Vector 52 */
+
+position: absolute;
+width: 548px;
+height: 0px;
+left: calc(50% - 548px/2);
+top: 788px;
+
+border: 1px solid rgba(29, 30, 33, 0.1);
+
+
+/* Enter shipping info */
+
+position: absolute;
+width: 182px;
+height: 28px;
+left: 110px;
+top: 256px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+color: #1D1E21;
+
+
+
+/* Order details */
+
+position: absolute;
+width: 126px;
+height: 28px;
+left: 110px;
+top: 828px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+color: #1D1E21;
+
+
+
+/* Payment method */
+
+position: absolute;
+width: 165px;
+height: 28px;
+left: 110px;
+top: 618px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+color: #1D1E21;
+
+
+
+/* Rectangle 42204 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 44px;
+left: 110px;
+top: 404px;
+
+border: 1px solid rgba(29, 30, 33, 0.2);
+border-radius: 60px;
+
+
+/* Rectangle 42205 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 44px;
+left: 384px;
+top: 404px;
+
+border: 1px solid rgba(29, 30, 33, 0.2);
+border-radius: 60px;
+
+
+/* Rectangle 42206 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 44px;
+left: 110px;
+top: 494px;
+
+border: 1px solid rgba(29, 30, 33, 0.2);
+border-radius: 60px;
+
+
+/* Rectangle 42207 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 44px;
+left: 384px;
+top: 494px;
+
+border: 1px solid rgba(29, 30, 33, 0.2);
+border-radius: 60px;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 56px;
+height: 18px;
+left: 128px;
+top: 417px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 56px;
+height: 18px;
+left: 402px;
+top: 417px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 56px;
+height: 18px;
+left: 128px;
+top: 507px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 56px;
+height: 18px;
+left: 402px;
+top: 507px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 40px;
+height: 18px;
+left: 128px;
+top: 378px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+color: #1D1E21;
+
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 37px;
+height: 18px;
+left: 402px;
+top: 378px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+color: #1D1E21;
+
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 43px;
+height: 18px;
+left: 128px;
+top: 468px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+color: #1D1E21;
+
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 57px;
+height: 18px;
+left: 402px;
+top: 468px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+color: #1D1E21;
+
+
+
+/* Enter your delivery address where you get the product. You can also send any other location where you send the products. */
+
+position: absolute;
+width: 548px;
+height: 40px;
+left: 110px;
+top: 298px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+color: #6A6A6F;
+
+
+
+/* You can pay us in a multiple way in our payment gateway system. */
+
+position: absolute;
+width: 548px;
+height: 20px;
+left: 110px;
+top: 660px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #6A6A6F;
+
+
+
+/* Shipping and additionnal costs are calculated based on values you have entered. */
+
+position: absolute;
+width: 548px;
+height: 40px;
+left: 110px;
+top: 870px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+color: #6A6A6F;
+
+
+
+/* block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 143px;
+height: 48px;
+left: 110px;
+top: 700px;
+
+
+
+/* radio btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 143px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* & RadioButton */
+
+width: 20px;
+height: 20px;
+
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* container */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 18px;
+height: 18px;
+left: 1px;
+top: 1px;
+
+border: 2px solid #59B17A;
+border-radius: 10px;
+
+
+/* circle */
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: calc(50% - 10px/2);
+top: calc(50% - 10px/2);
+
+background: #59B17A;
+border-radius: 5px;
+
+
+/* ↪ Label */
+
+width: 115px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* radio btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 61px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* & RadioButton */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 20px;
+height: 20px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* container */
+
+box-sizing: border-box;
+
+width: 18px;
+height: 18px;
+
+border: 2px solid rgba(18, 20, 23, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 33px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 42216 */
+
+position: absolute;
+width: 548px;
+height: 65px;
+left: 110px;
+top: 930px;
+
+background: #E7F1ED;
+border-radius: 8px;
+
+
+/* Total: */
+
+position: absolute;
+width: 49px;
+height: 25px;
+left: 130px;
+top: 950px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* ৳ 122.00 */
+
+position: absolute;
+width: 76px;
+height: 25px;
+left: 562px;
+top: 950px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+text-align: right;
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 32px;
+gap: 8px;
+
+position: absolute;
+width: 141px;
+height: 44px;
+left: 110px;
+top: 1015px;
+
+background: #59B17A;
+border-radius: 60px;
+
+
+/* Place order */
+
+width: 77px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* remove */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 2px;
+
+position: absolute;
+width: 89px;
+height: 33px;
+left: 647px;
+top: 1263px;
+
+background: rgba(232, 80, 80, 0.1);
+border-radius: 40px;
+
+
+/* Remove */
+
+width: 65px;
+height: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #E85050;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* remove */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 2px;
+
+position: absolute;
+width: 89px;
+height: 33px;
+left: 647px;
+top: 1436px;
+
+background: rgba(232, 80, 80, 0.1);
+border-radius: 40px;
+
+
+/* Remove */
+
+width: 65px;
+height: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #E85050;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector 50 */
+
+position: absolute;
+width: 704px;
+height: 0px;
+left: calc(50% - 704px/2);
+top: 1316px;
+
+border: 1px solid rgba(29, 30, 33, 0.1);
+
+
+/* block */
+
+position: absolute;
+width: 108px;
+height: 44px;
+left: 174px;
+top: 1252px;
+
+
+
+/* Rectangle 42204 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 108px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* plus */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 18px;
+top: 12px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 50%;
+top: 20.83%;
+bottom: 20.83%;
+
+border: 1.8px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.84%;
+top: 50%;
+bottom: 50%;
+
+border: 1.8px solid #59B17A;
+
+
+/* plus */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 70px;
+top: 12px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.84%;
+top: 50%;
+bottom: 50%;
+
+border: 1.8px solid #59B17A;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 8px;
+height: 20px;
+left: 50px;
+top: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+text-align: center;
+
+color: #1D1E21;
+
+
+
+/* block */
+
+position: absolute;
+width: 108px;
+height: 44px;
+left: 174px;
+top: 1425px;
+
+
+
+/* Rectangle 42204 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 108px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* plus */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 18px;
+top: 12px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 50%;
+top: 20.83%;
+bottom: 20.83%;
+
+border: 1.8px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.84%;
+top: 50%;
+bottom: 50%;
+
+border: 1.8px solid #59B17A;
+
+
+/* plus */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 70px;
+top: 12px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.84%;
+top: 50%;
+bottom: 50%;
+
+border: 1.8px solid #59B17A;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 8px;
+height: 20px;
+left: 50px;
+top: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+text-align: center;
+
+color: #1D1E21;
+
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 122px;
+height: 133px;
+left: 32px;
+top: 1163px;
+
+background: url(image.png);
+border: 1.15486px solid #F1F1F1;
+border-radius: 27px;
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 122px;
+height: 133px;
+left: 32px;
+top: 1336px;
+
+background: url(image.png);
+border: 1.15486px solid #F1F1F1;
+border-radius: 27px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 218px;
+height: 51px;
+left: 174px;
+top: 1163px;
+
+
+
+/* Vitamin C Medicine */
+
+width: 169px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Antioxidant Aid for Heart Health */
+
+width: 218px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+color: #6A6A6F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 218px;
+height: 69px;
+left: 174px;
+top: 1336px;
+
+
+
+/* Stomach Medicine */
+
+width: 162px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Soothes Indigestion, Eases Stomach Pain */
+
+width: 218px;
+height: 36px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+color: #6A6A6F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ৳ 90.00 */
+
+position: absolute;
+width: 52px;
+height: 18px;
+left: 684px;
+top: 1163px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #1D1E21;
+
+
+
+/* ৳ 32.00 */
+
+position: absolute;
+width: 52px;
+height: 18px;
+left: 684px;
+top: 1336px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #1D1E21;
+

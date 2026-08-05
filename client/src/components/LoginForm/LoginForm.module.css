@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-14);
+  width: 100%;
+  max-width: 320px;
+}
+
+.submitBtn {
+  margin-top: var(--space-8);
+}

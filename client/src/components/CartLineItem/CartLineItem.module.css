@@ -1,0 +1,40 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-14);
+  padding: var(--space-18) 0;
+  border-bottom: 1px solid var(--color-hairline);
+}
+
+.thumbnail {
+  border-radius: var(--radius-xs);
+  object-fit: cover;
+  background: var(--color-surface-alt);
+  flex: none;
+}
+
+.info {
+  flex: 1 1 160px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.brand {
+  font-size: 12px;
+  color: var(--color-text-muted-60);
+}
+
+.unitPrice,
+.lineTotal {
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 70px;
+}
+
+.lineTotal {
+  font-weight: 600;
+}

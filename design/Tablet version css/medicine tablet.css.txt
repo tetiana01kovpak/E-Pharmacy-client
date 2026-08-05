@@ -1,0 +1,2708 @@
+/* Medicine */
+
+position: relative;
+width: 768px;
+height: 2013px;
+
+background: #F7F8FA;
+
+
+/* logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 172px;
+height: 44px;
+left: 32px;
+top: 28px;
+
+
+
+/* Mask group */
+
+width: 44px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 1 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* image 2 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, #59B17A, #59B17A), url(image.png);
+
+
+/* E-Pharmacy */
+
+width: 114px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.03em;
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* icons */
+
+position: absolute;
+width: 46px;
+height: 46px;
+left: 590px;
+top: 28px;
+
+
+
+/* cart */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 2px;
+
+
+
+/* Ellipse 14 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 2px;
+
+background: #FFFFFF;
+border: 1px solid #F1F1F1;
+
+
+/* shopping-cart */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 14px;
+top: 16px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.35%;
+right: 58.32%;
+top: 83.33%;
+bottom: 8.34%;
+
+border: 1.5px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 79.15%;
+right: 12.52%;
+top: 83.33%;
+bottom: 8.34%;
+
+border: 1.5px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.15%;
+right: 4.18%;
+top: 4.17%;
+bottom: 33.33%;
+
+border: 1.5px solid #59B17A;
+
+
+/* 2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 30px;
+top: 0px;
+
+
+
+/* Ellipse 517 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 30px;
+top: 0px;
+
+background: #E7F1ED;
+
+
+/* 0 */
+
+position: absolute;
+width: 9px;
+height: 15px;
+left: 34px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #59B17A;
+
+
+
+/* user */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 644px;
+top: 29px;
+
+
+
+/* Ellipse 518 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: rgba(89, 177, 122, 0.1);
+
+
+/* I */
+
+position: absolute;
+width: 5px;
+height: 25px;
+left: 20px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #59B17A;
+
+
+
+/* align-justify */
+
+position: absolute;
+width: 32px;
+height: 26px;
+left: 704px;
+top: 38px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 13.56%;
+right: 11.44%;
+top: 50.8%;
+bottom: 49.2%;
+
+border: 2px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.56%;
+right: 11.44%;
+top: 30.8%;
+bottom: 69.2%;
+
+border: 2px solid #59B17A;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.56%;
+right: 11.44%;
+top: 70.8%;
+bottom: 29.2%;
+
+border: 2px solid #59B17A;
+
+
+/* Medicine */
+
+position: absolute;
+width: 125px;
+height: 32px;
+left: 32px;
+top: 152px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height, or 114% */
+
+color: #1D1E21;
+
+
+
+/* footer */
+
+position: absolute;
+width: 768px;
+height: 328px;
+left: calc(50% - 768px/2);
+bottom: 0px;
+
+
+
+/* Rectangle 42211 */
+
+position: absolute;
+width: 768px;
+height: 328px;
+left: calc(50% - 768px/2);
+bottom: 0px;
+
+background: #59B17A;
+
+
+/* Socials */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+left: 75.52%;
+right: 4.17%;
+top: 28.35%;
+bottom: 58.23%;
+
+
+
+/* facebook */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 44px;
+height: 44px;
+
+border: 1px solid rgba(247, 248, 250, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icons / 40x40 / facebook */
+
+width: 28px;
+height: 28px;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 52 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 36.25%;
+right: 36%;
+top: 14.25%;
+bottom: 15.5%;
+
+background: #F7F8FA;
+
+
+/* instagram */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+
+width: 44px;
+height: 44px;
+
+border: 1px solid rgba(247, 248, 250, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* icons / 40x40 / instagram */
+
+width: 28px;
+height: 28px;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10%;
+right: 10%;
+top: 10%;
+bottom: 10%;
+
+background: #F7F8FA;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.47%;
+right: 37.51%;
+top: 37.4%;
+bottom: 37.58%;
+
+background: #F7F8FA;
+
+
+/* youtube */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+
+width: 44px;
+height: 44px;
+
+border: 1px solid rgba(247, 248, 250, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* icons / 40x40 / youtube */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 60 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0.8;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.75%;
+right: 6.25%;
+top: 18.25%;
+bottom: 19.5%;
+
+background: #F7F8FA;
+
+
+/* menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 296px;
+height: 20px;
+left: calc(50% - 296px/2 + 204px);
+top: 41px;
+
+
+
+/* about */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 46px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Home */
+
+width: 46px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* support */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 115px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Medicine store */
+
+width: 115px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* platform */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 71px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Medicine */
+
+width: 71px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Info */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 591px;
+height: 20px;
+left: calc(50% - 591px/2 - 0.5px);
+top: 276px;
+
+
+
+/* Text */
+
+width: 272px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 699 */
+
+width: 1px;
+height: 20px;
+
+background: #F7F8FA;
+opacity: 0.2;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 92px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 700 */
+
+width: 1px;
+height: 20px;
+
+background: #F7F8FA;
+opacity: 0.2;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 129px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector 50 */
+
+position: absolute;
+width: 704px;
+height: 0px;
+left: calc(50% - 704px/2);
+top: 244px;
+
+border: 1px solid rgba(247, 248, 250, 0.3);
+
+
+/* logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 172px;
+height: 44px;
+left: 32px;
+top: 32px;
+
+
+
+/* Mask group */
+
+width: 44px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 1 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* image 2 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, #F7F8FA, #F7F8FA), url(image.png);
+
+
+/* E-Pharmacy */
+
+width: 114px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.03em;
+
+color: #F7F8FA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Get the medicine to help you feel better, get back to your active life, and enjoy every moment. */
+
+position: absolute;
+width: 261px;
+height: 60px;
+left: 32px;
+top: 96px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+color: #F7F8FA;
+
+
+
+/* Rectangle 42204 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 224px;
+height: 44px;
+left: 260px;
+top: 216px;
+
+background: #FFFFFF;
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* search */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 450px;
+top: 230px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 20.83%;
+top: 12.5%;
+bottom: 20.83%;
+
+border: 1.5px solid #1D1E21;
+
+
+/* Vector */
+
+position: absolute;
+left: 69.37%;
+right: 12.5%;
+top: 69.37%;
+bottom: 12.5%;
+
+border: 1.5px solid #1D1E21;
+
+
+/* Rectangle 42205 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 214px;
+height: 44px;
+left: 32px;
+top: 216px;
+
+background: #FFFFFF;
+border: 1px solid rgba(29, 30, 33, 0.1);
+border-radius: 60px;
+
+
+/* chevron-down */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 212px;
+top: 230px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 37.5%;
+bottom: 37.5%;
+
+border: 1.5px solid #1D1E21;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 95px;
+height: 18px;
+left: 278px;
+top: 229px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 99px;
+height: 18px;
+left: 50px;
+top: 229px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.4);
+
+
+
+/* block */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 30px;
+gap: 8px;
+
+position: absolute;
+width: 116px;
+height: 44px;
+left: 492px;
+top: 216px;
+
+background: #59B17A;
+border-radius: 60px;
+
+
+/* filter */
+
+width: 14px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.31%;
+right: 8.35%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.5px solid #FFFFFF;
+
+
+/* Filter */
+
+width: 34px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 226px;
+height: 260px;
+left: 32px;
+top: 292px;
+
+background: url(image);
+border: 1.15486px solid rgba(89, 177, 122, 0.6);
+border-radius: 20px;
+
+
+/* block */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: 32px;
+top: 560px;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: calc(50% - 226px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 132px;
+height: 47px;
+left: 20px;
+top: 20px;
+
+
+
+/* Antimonium */
+
+width: 106px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 132px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 39px;
+height: 18px;
+left: 167px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration-line: underline;
+
+color: #1D1E21;
+
+
+
+/* ৳24 */
+
+position: absolute;
+width: 35px;
+height: 25px;
+left: 171px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 34px;
+left: 20px;
+top: 81px;
+
+background: #59B17A;
+border-radius: 24px;
+
+
+/* Add to cart */
+
+width: 76px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 226px;
+height: 260px;
+left: 271px;
+top: 292px;
+
+background: url(image.png);
+border: 1.15486px solid rgba(89, 177, 122, 0.6);
+border-radius: 20px;
+
+
+/* block */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: 271px;
+top: 560px;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: calc(50% - 226px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 125px;
+height: 47px;
+left: 20px;
+top: 20px;
+
+
+
+/* Isopro Alcohol */
+
+width: 125px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 99px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ৳54 */
+
+position: absolute;
+width: 36px;
+height: 25px;
+left: 170px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 34px;
+left: 20px;
+top: 81px;
+
+background: #59B17A;
+border-radius: 24px;
+
+
+/* Add to cart */
+
+width: 76px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 39px;
+height: 18px;
+left: 167px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration-line: underline;
+
+color: #1D1E21;
+
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 226px;
+height: 260px;
+left: 510px;
+top: 292px;
+
+background: url(image);
+border: 1.15486px solid rgba(89, 177, 122, 0.6);
+border-radius: 20px;
+
+
+/* block */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: 510px;
+top: 560px;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: calc(50% - 226px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 145px;
+height: 47px;
+left: 20px;
+top: 20px;
+
+
+
+/* Dapsone */
+
+width: 78px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 145px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ৳520 */
+
+position: absolute;
+width: 47px;
+height: 25px;
+left: 159px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 34px;
+left: 20px;
+top: 81px;
+
+background: #59B17A;
+border-radius: 24px;
+
+
+/* Add to cart */
+
+width: 76px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 39px;
+height: 18px;
+left: 167px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration-line: underline;
+
+color: #1D1E21;
+
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 226px;
+height: 260px;
+left: 32px;
+top: 727px;
+
+background: url(image);
+border: 1.15486px solid rgba(89, 177, 122, 0.6);
+border-radius: 20px;
+
+
+/* block */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: 32px;
+top: 995px;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: calc(50% - 226px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 100px;
+height: 47px;
+left: 20px;
+top: 20px;
+
+
+
+/* Helminthos */
+
+width: 100px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 93px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ৳470 */
+
+position: absolute;
+width: 47px;
+height: 25px;
+left: 159px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 34px;
+left: 20px;
+top: 81px;
+
+background: #59B17A;
+border-radius: 24px;
+
+
+/* Add to cart */
+
+width: 76px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 39px;
+height: 18px;
+left: 167px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration-line: underline;
+
+color: #1D1E21;
+
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 226px;
+height: 260px;
+left: 271px;
+top: 727px;
+
+background: url(image), #F7F7F7;
+border: 1.15486px solid rgba(89, 177, 122, 0.6);
+border-radius: 20px;
+
+
+/* block */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: 271px;
+top: 995px;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: calc(50% - 226px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 112px;
+height: 47px;
+left: 20px;
+top: 20px;
+
+
+
+/* Alcohol */
+
+width: 66px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 112px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ৳748 */
+
+position: absolute;
+width: 45px;
+height: 25px;
+left: 161px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 34px;
+left: 20px;
+top: 81px;
+
+background: #59B17A;
+border-radius: 24px;
+
+
+/* Add to cart */
+
+width: 76px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 39px;
+height: 18px;
+left: 167px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration-line: underline;
+
+color: #1D1E21;
+
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 226px;
+height: 260px;
+left: 510px;
+top: 727px;
+
+background: url(image), #F7F7F7;
+border: 1.15486px solid rgba(89, 177, 122, 0.6);
+border-radius: 20px;
+
+
+/* block */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: 510px;
+top: 995px;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: calc(50% - 226px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 124px;
+height: 47px;
+left: 20px;
+top: 20px;
+
+
+
+/* Hydrochloride */
+
+width: 124px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 91px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ৳582 */
+
+position: absolute;
+width: 46px;
+height: 25px;
+left: 160px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 34px;
+left: 20px;
+top: 81px;
+
+background: #59B17A;
+border-radius: 24px;
+
+
+/* Add to cart */
+
+width: 76px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 39px;
+height: 18px;
+left: 167px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration-line: underline;
+
+color: #1D1E21;
+
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 226px;
+height: 260px;
+left: 32px;
+top: 1162px;
+
+background: url(image);
+border: 1.15486px solid rgba(89, 177, 122, 0.6);
+border-radius: 20px;
+
+
+/* block */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: 32px;
+top: 1430px;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: calc(50% - 226px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 145px;
+height: 47px;
+left: 20px;
+top: 20px;
+
+
+
+/* Occidentalis */
+
+width: 109px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 145px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ৳239 */
+
+position: absolute;
+width: 47px;
+height: 25px;
+left: 159px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 34px;
+left: 20px;
+top: 81px;
+
+background: #59B17A;
+border-radius: 24px;
+
+
+/* Add to cart */
+
+width: 76px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 39px;
+height: 18px;
+left: 167px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration-line: underline;
+
+color: #1D1E21;
+
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 226px;
+height: 260px;
+left: 271px;
+top: 1162px;
+
+background: url(image), #F7F7F7;
+border: 1.15486px solid rgba(89, 177, 122, 0.6);
+border-radius: 20px;
+
+
+/* block */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: 271px;
+top: 1430px;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: calc(50% - 226px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 91px;
+height: 47px;
+left: 20px;
+top: 20px;
+
+
+
+/* Metformin */
+
+width: 91px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 21px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ৳354 */
+
+position: absolute;
+width: 47px;
+height: 25px;
+left: 159px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 34px;
+left: 20px;
+top: 81px;
+
+background: #59B17A;
+border-radius: 24px;
+
+
+/* Add to cart */
+
+width: 76px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 39px;
+height: 18px;
+left: 167px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration-line: underline;
+
+color: #1D1E21;
+
+
+
+/* image */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 18px;
+gap: 14px;
+
+position: absolute;
+width: 226px;
+height: 260px;
+left: 510px;
+top: 1162px;
+
+background: url(image);
+border: 1.15486px solid rgba(89, 177, 122, 0.6);
+border-radius: 20px;
+
+
+/* block */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: 510px;
+top: 1430px;
+
+
+
+/* Rounded rectangle */
+
+position: absolute;
+width: 226px;
+height: 135px;
+left: calc(50% - 226px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 96px;
+height: 47px;
+left: 20px;
+top: 20px;
+
+
+
+/* Octinoxate */
+
+width: 96px;
+height: 25px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+width: 21px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+color: rgba(29, 30, 33, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ৳306 */
+
+position: absolute;
+width: 48px;
+height: 25px;
+left: 158px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+color: #1D1E21;
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 34px;
+left: 20px;
+top: 81px;
+
+background: #59B17A;
+border-radius: 24px;
+
+
+/* Add to cart */
+
+width: 76px;
+height: 14px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ↪ Label */
+
+position: absolute;
+width: 39px;
+height: 18px;
+left: 167px;
+top: 89px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration-line: underline;
+
+color: #1D1E21;
+

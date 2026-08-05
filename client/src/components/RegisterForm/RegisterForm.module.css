@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-18);
+  width: 100%;
+  max-width: 400px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-14);
+}
+
+.submitBtn {
+  margin-top: var(--space-8);
+}
+
+@media (min-width: 768px) {
+  .grid:not(.compact) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

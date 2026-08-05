@@ -1,0 +1,110 @@
+.page {
+  padding-block: 40px 80px;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-modal);
+  background: var(--color-surface-alt);
+}
+
+.purchaseCard {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.name {
+  font-size: 22px;
+}
+
+.brand {
+  font-size: 13px;
+  color: var(--color-text-muted-60);
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: var(--space-8);
+}
+
+.purchaseRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-14);
+  margin-top: var(--space-14);
+}
+
+.tabsPanel {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: 24px;
+  margin-top: 32px;
+}
+
+.tabSwitch {
+  display: inline-flex;
+  gap: var(--space-8);
+  background: var(--color-bg);
+  border-radius: var(--radius-pill-sm);
+  padding: 4px;
+}
+
+.tabBtn {
+  padding: 8px 20px;
+  border-radius: var(--radius-pill-sm);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-muted-60);
+}
+
+.tabActive {
+  background: var(--color-primary);
+  color: var(--color-surface);
+}
+
+.description {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-14);
+  color: var(--color-text-muted-60);
+  line-height: 1.6;
+}
+
+.reviews {
+  margin-top: 24px;
+}
+
+.reviewList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-14);
+}
+
+@media (min-width: 768px) {
+  .overview {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .image {
+    max-width: 382px;
+  }
+
+  .purchaseCard {
+    flex: 1;
+  }
+}
