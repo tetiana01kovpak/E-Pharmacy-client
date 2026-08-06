@@ -1,76 +1,47 @@
-import { faker } from '@faker-js/faker';
-import { CATEGORIES } from '../../constants/categories';
+import { Category } from '../../constants/categories';
+import rawProducts from '../data/products.json';
 
-const DRUG_STEMS = [
-  'Amoxicillin',
-  'Paracetamol',
-  'Ibuprofen',
-  'Cetirizine',
-  'Loratadine',
-  'Omeprazole',
-  'Metformin',
-  'Amlodipine',
-  'Atorvastatin',
-  'Vitamin C',
-  'Vitamin D3',
-  'Zinc',
-  'Multivitamin Complex',
-  'Calcium Carbonate',
-  'Iron Supplement',
-  'Melatonin',
-  'Probiotic Complex',
-  'Fish Oil',
-  'Aspirin',
-  'Diclofenac',
-  'Loperamide',
-  'Domperidone',
-  'Ranitidine',
-  'Salbutamol',
-  'Dextromethorphan',
-  'Chlorpheniramine',
-  'Hydrocortisone',
-  'Betamethasone',
-  'Ciprofloxacin',
-  'Azithromycin',
-  'Moringa Extract',
-  'Ginger Root',
-  'Echinacea',
-  'Magnesium',
-  'Electrolyte Powder',
-];
-
-const DOSAGE_FORMS = [
-  'Tablets',
-  'Capsules',
-  'Syrup',
-  'Oral Suspension',
-  'Ointment',
-  'Cream',
-  'Gel',
-  'Drops',
-  'Effervescent Tablets',
-  'Chewable Tablets',
-];
-
-const BENEFIT_TEMPLATES = [
-  (name: string) => `Antioxidant Properties: ${name} is packed with antioxidants that help fight oxidative stress and inflammation in the body.`,
-  (name: string) => `Immune Support: With regular use, ${name} can help boost the immune system's natural defenses.`,
-  (name: string) => `Digestive Aid: ${name} can help support healthy digestion and ease minor digestive discomfort.`,
-  (name: string) => `Heart Health: Some studies suggest ${name} may support healthy cholesterol levels already within a normal range.`,
-  (name: string) => `Energy & Vitality: Many users report improved energy levels after incorporating ${name} into their daily routine.`,
-  (name: string) => `Anti-Inflammatory Effects: ${name} may help reduce minor inflammation associated with everyday activity.`,
-];
-
-function buildDescription(name: string): string {
-  const intro = `Although ${name} is typically considered safe for most adults when used as directed, it is always recommended to consult your pharmacist or doctor before starting any new medication or supplement, especially if you are pregnant, nursing, or taking other medications.`;
-  const benefits = faker.helpers.arrayElements(BENEFIT_TEMPLATES, 4).map((fn) => fn(name));
-  return [intro, ...benefits].join('\n\n');
+interface RawProduct {
+  id: string;
+  photo: string;
+  name: string;
+  suppliers: string;
+  stock: string;
+  price: string;
+  category: string;
 }
+
+// The source file's own "category" values (Medicine/Heart/Head/Hand/Leg) are placeholders
+// unrelated to real drug classification, so every name is mapped to the closest fit among
+// this app's actual CATEGORIES by hand. Several (e.g. blood-pressure drugs, antibiotics,
+// psych meds) have no clean match and are forced into 'First Aid' as a catch-all.
+const CATEGORY_BY_NAME: Record<string, Category> = {
+  Aspirin: 'Pain Relief',
+  Paracetamol: 'Pain Relief',
+  Ibuprofen: 'Pain Relief',
+  Acetaminophen: 'Pain Relief',
+  Naproxen: 'Pain Relief',
+  Tramadol: 'Pain Relief',
+  Meloxicam: 'Pain Relief',
+  'Folic Acid': 'Vitamins & Supplements',
+  'Calcium Carbonate': 'Vitamins & Supplements',
+  'Vitamin D': 'Vitamins & Supplements',
+  'Fish Oil': 'Vitamins & Supplements',
+  Multivitamins: 'Vitamins & Supplements',
+  Omeprazole: 'Digestive Health',
+  Metformin: 'Diabetes Care',
+  'Facial Cleanser': 'Skin Care',
+  Moisturizer: 'Skin Care',
+  Loratadine: 'Allergy & Sinus',
+  Montelukast: 'Allergy & Sinus',
+};
+
+const DEFAULT_CATEGORY: Category = 'First Aid';
 
 interface GeneratedProduct {
   name: string;
   brand: string;
-  category: string;
+  category: Category;
   description: string;
   price: number;
   discountPercent: number;
@@ -79,30 +50,22 @@ interface GeneratedProduct {
   reviewsCount: number;
 }
 
-export function generateProducts(count: number): GeneratedProduct[] {
-  const combos = new Set<string>();
+export function generateProducts(): GeneratedProduct[] {
+  const seenNames = new Set<string>();
   const products: GeneratedProduct[] = [];
 
-  while (products.length < count) {
-    const stem = faker.helpers.arrayElement(DRUG_STEMS);
-    const form = faker.helpers.arrayElement(DOSAGE_FORMS);
-    const name = `${stem} ${form}`;
-
-    if (combos.has(name)) continue;
-    combos.add(name);
-
-    const isBigDiscount = products.length < 4;
-    const isMediumDiscount = products.length >= 4 && products.length < 8;
-    const discountPercent = isBigDiscount ? 70 : isMediumDiscount ? 35 : faker.helpers.arrayElement([0, 0, 0, 10, 15, 20]);
+  for (const raw of rawProducts as RawProduct[]) {
+    if (seenNames.has(raw.name)) continue;
+    seenNames.add(raw.name);
 
     products.push({
-      name,
-      brand: faker.company.name(),
-      category: faker.helpers.arrayElement(CATEGORIES),
-      description: buildDescription(stem),
-      price: Number(faker.commerce.price({ min: 5, max: 600 })),
-      discountPercent,
-      image: `https://picsum.photos/seed/${encodeURIComponent(name)}/400/400`,
+      name: raw.name,
+      brand: raw.suppliers,
+      category: CATEGORY_BY_NAME[raw.name] ?? DEFAULT_CATEGORY,
+      description: `${raw.name}, supplied by ${raw.suppliers}. Consult your pharmacist before use.`,
+      price: Number(raw.price),
+      discountPercent: 0,
+      image: raw.photo,
       avgRating: 0,
       reviewsCount: 0,
     });

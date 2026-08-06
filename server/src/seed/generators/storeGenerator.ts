@@ -1,11 +1,22 @@
-import { faker } from '@faker-js/faker';
+import nearestPharmacies from '../data/nearestPharmacies.json';
+import pharmacies from '../data/pharmacies.json';
 
-export function generateStore() {
-  return {
-    name: faker.company.name(),
-    address: `${faker.location.streetAddress()}, ${faker.location.city()}`,
-    phone: faker.phone.number({ style: 'international' }),
-    isOpen: faker.datatype.boolean({ probability: 0.65 }),
-    rating: Number(faker.number.float({ min: 1, max: 5, fractionDigits: 1 })),
-  };
+interface RawPharmacy {
+  name: string;
+  address: string;
+  city: string;
+  phone: string;
+  rating: number;
+}
+
+export function generateStores() {
+  const raw = [...(pharmacies as RawPharmacy[]), ...(nearestPharmacies as RawPharmacy[])];
+
+  return raw.map((pharmacy) => ({
+    name: pharmacy.name,
+    address: `${pharmacy.address}, ${pharmacy.city}`,
+    phone: pharmacy.phone,
+    isOpen: true,
+    rating: pharmacy.rating,
+  }));
 }

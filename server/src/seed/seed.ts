@@ -10,10 +10,8 @@ import { Store } from '../models/Store';
 import { User } from '../models/User';
 import { generateCustomerReviews, generateProductReview } from './generators/reviewGenerator';
 import { generateProducts } from './generators/productGenerator';
-import { generateStore } from './generators/storeGenerator';
+import { generateStores } from './generators/storeGenerator';
 
-const STORE_COUNT = 18;
-const PRODUCT_COUNT = 35;
 const CUSTOMER_REVIEW_COUNT = 10;
 
 const DEMO_USER = {
@@ -37,11 +35,13 @@ async function seed(): Promise<void> {
     User.deleteMany({ email: DEMO_USER.email }),
   ]);
 
-  console.log(`Seeding ${STORE_COUNT} stores...`);
-  await Store.insertMany(Array.from({ length: STORE_COUNT }, generateStore));
+  const stores = generateStores();
+  console.log(`Seeding ${stores.length} stores...`);
+  await Store.insertMany(stores);
 
-  console.log(`Seeding ${PRODUCT_COUNT} products...`);
-  const products = await Product.insertMany(generateProducts(PRODUCT_COUNT));
+  const productsData = generateProducts();
+  console.log(`Seeding ${productsData.length} products...`);
+  const products = await Product.insertMany(productsData);
 
   console.log('Seeding product reviews...');
   for (const product of products) {
