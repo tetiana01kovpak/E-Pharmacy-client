@@ -29,7 +29,7 @@ services:
       - key: REFRESH_TOKEN_EXPIRES_IN
         value: 30d
       - key: CLIENT_ORIGIN
-        value: https://e-pharmacy-client.onrender.com
+        value: https://e-pharmacy-client-cs79.onrender.com
 
   - type: web
     name: e-pharmacy-client
