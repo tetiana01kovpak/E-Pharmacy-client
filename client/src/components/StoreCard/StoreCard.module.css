@@ -1,10 +1,10 @@
 .card {
   background: var(--color-store-card);
   border-radius: var(--radius-card);
-  padding: 32px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
-  gap: var(--space-12);
+  gap: var(--space-14);
 }
 
 .header {
@@ -14,21 +14,32 @@
   gap: var(--space-8);
 }
 
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: var(--space-14);
+  flex-shrink: 0;
+}
+
 .name {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .detail {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--space-8);
-  font-size: 13px;
-  color: var(--color-text-muted-60);
+  font-size: 16px;
+  color: var(--color-text-disabled);
+}
+
+.addressLines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-top: var(--space-8);
 }

@@ -7,6 +7,7 @@ import { Loader } from '../../components/ui/Loader/Loader';
 import { fetchNearestStores } from '../../redux/stores/storesSlice';
 import { fetchCustomerReviews } from '../../redux/reviews/reviewsSlice';
 import { useAppDispatch, useAppSelector } from '../../redux/hooks';
+import heroPills from '../../assets/hero-pills.png';
 import styles from './HomePage.module.css';
 
 const PROMO_BANNERS = [
@@ -16,11 +17,11 @@ const PROMO_BANNERS = [
 ];
 
 const FEATURES = [
-  'Take user orders form online',
-  'Create your shop profile',
-  'Manage your store',
-  'Get more orders',
-  'Storage shed',
+  { label: 'Take user orders form online' },
+  { label: 'Create your shop profile' },
+  { label: 'Manage your store', to: '/dashboard' },
+  { label: 'Get more orders' },
+  { label: 'Storage shed' },
 ];
 
 export function HomePage() {
@@ -37,31 +38,37 @@ export function HomePage() {
     <div>
       <section className={styles.hero}>
         <div className={`container ${styles.heroInner}`}>
+          <img className={styles.heroImage} src={heroPills} alt="" aria-hidden="true" />
           <h1 className={styles.heroTitle}>Your medication delivered</h1>
           <p className={styles.heroSubtitle}>Say goodbye to all your healthcare worries with us</p>
         </div>
       </section>
 
       <section className={`container ${styles.promoSection}`}>
-        {PROMO_BANNERS.map((banner) => (
+        {PROMO_BANNERS.map((banner, index) => (
           <div key={banner.title} className={styles.promoCard}>
-            <h3>{banner.title}</h3>
-            <p className={styles.promoStat}>{banner.stat}</p>
-            {banner.to.startsWith('#') ? (
-              <a href={banner.to} className={styles.promoLink}>
-                {banner.cta}
-              </a>
-            ) : (
-              <Link to={banner.to} className={styles.promoLink}>
-                {banner.cta}
-              </Link>
-            )}
+            <div className={styles.promoHeader}>
+              <span className={styles.promoNumber}>{index + 1}</span>
+              <h3 className={styles.promoTitle}>{banner.title}</h3>
+            </div>
+            <div className={styles.promoFooter}>
+              <p className={styles.promoStat}>{banner.stat}</p>
+              {banner.to.startsWith('#') ? (
+                <a href={banner.to} className={styles.promoLink}>
+                  {banner.cta}
+                </a>
+              ) : (
+                <Link to={banner.to} className={styles.promoLink}>
+                  {banner.cta}
+                </Link>
+              )}
+            </div>
           </div>
         ))}
       </section>
 
       <section className={`container ${styles.section}`}>
-        <h2>Your Nearest Medicine Store</h2>
+        <h2 className={styles.sectionTitle}>Your Nearest Medicine Store</h2>
         <p className={styles.sectionSubtitle}>Search for Medicine, Filter by your location</p>
 
         {storesStatus === 'loading' ? (
@@ -93,15 +100,21 @@ export function HomePage() {
 
         <ul className={styles.featureList}>
           {FEATURES.map((feature) => (
-            <li key={feature} className={styles.featureItem}>
-              {feature}
+            <li key={feature.label} className={styles.featureItem}>
+              {feature.to ? (
+                <Link to={feature.to} className={styles.featureLink}>
+                  {feature.label}
+                </Link>
+              ) : (
+                feature.label
+              )}
             </li>
           ))}
         </ul>
       </section>
 
       <section className={`container ${styles.section}`}>
-        <h2>Reviews</h2>
+        <h2 className={styles.sectionTitle}>Reviews</h2>
         <p className={styles.sectionSubtitle}>Search for Medicine, Filter by your location</p>
 
         {reviewsStatus === 'loading' ? (

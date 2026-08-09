@@ -5,6 +5,7 @@ import morgan from 'morgan';
 import { errorHandler } from './middlewares/errorHandler';
 import { notFoundHandler } from './middlewares/notFoundHandler';
 import { cartRouter } from './routes/cartRouter';
+import { dashboardRouter } from './routes/dashboardRouter';
 import { productRouter } from './routes/productRouter';
 import { storeRouter } from './routes/storeRouter';
 import { userRouter } from './routes/userRouter';
@@ -30,6 +31,7 @@ export function createApp(): Application {
   app.use('/api', storeRouter);
   app.use('/api/products', productRouter);
   app.use('/api/cart', cartRouter);
+  app.use('/api/dashboard', dashboardRouter);
 
   app.use(notFoundHandler);
   app.use(errorHandler);

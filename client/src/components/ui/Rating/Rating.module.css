@@ -22,7 +22,7 @@
 
 .badge {
   margin-left: var(--space-6);
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 500;
   color: var(--color-text);
 }

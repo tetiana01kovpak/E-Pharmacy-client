@@ -1,18 +1,52 @@
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-14);
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    gap: var(--space-14);
+  }
 }
 
 .mark {
   flex: none;
+  width: 32px;
+  height: 32px;
+  background-color: var(--color-primary);
+  -webkit-mask-image: var(--logo-mark-url);
+  mask-image: var(--logo-mark-url);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+@media (min-width: 768px) {
+  .mark {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.markLight {
+  background-color: var(--color-surface);
 }
 
 .text {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: -0.03em;
   color: var(--color-text);
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 20px;
+  }
 }
 
 .light {

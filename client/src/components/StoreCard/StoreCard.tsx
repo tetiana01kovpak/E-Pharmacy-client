@@ -10,25 +10,33 @@ type StoreCardProps = {
 };
 
 export function StoreCard({ store }: StoreCardProps) {
+  const [addressLine1, ...addressRest] = store.address.split(', ');
+  const addressLine2 = addressRest.join(', ');
+
   return (
     <article className={styles.card}>
       <div className={styles.header}>
         <h3 className={styles.name}>{store.name}</h3>
-        <StatusBadge isOpen={store.isOpen} />
+        <div className={styles.headerRight}>
+          <Rating value={store.rating} />
+          <StatusBadge isOpen={store.isOpen} />
+        </div>
       </div>
 
       <p className={styles.detail}>
-        <Icon name="map-pin" size={16} />
-        {store.address}
+        <Icon name="map-pin" size={18} />
+        <span className={styles.addressLines}>
+          <span>{addressLine1}</span>
+          {addressLine2 && <span>{addressLine2}</span>}
+        </span>
       </p>
       <p className={styles.detail}>
-        <Icon name="phone" size={16} />
+        <Icon name="phone" size={18} />
         {store.phone}
       </p>
 
       <div className={styles.footer}>
         <Button variant="secondary">Visit Store</Button>
-        <Rating value={store.rating} />
       </div>
     </article>
   );

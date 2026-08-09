@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import clsx from 'clsx';
 import { Logo } from '../Logo/Logo';
 import { NavDrawer } from '../NavDrawer/NavDrawer';
@@ -10,17 +10,20 @@ import { useAppDispatch, useAppSelector } from '../../redux/hooks';
 import styles from './Header.module.css';
 
 const NAV_LINKS = [
-  { to: '/home', label: 'Home' },
-  { to: '/medicine-store', label: 'Medicine store' },
-  { to: '/medicine', label: 'Medicine' },
+  { to: '/home', label: 'Home', slotWidth: 96 },
+  { to: '/medicine-store', label: 'Medicine store', slotWidth: 134 },
+  { to: '/medicine', label: 'Medicine', slotWidth: 112 },
 ];
 
 export function Header() {
   const [isDrawerOpen, setDrawerOpen] = useState(false);
   const dispatch = useAppDispatch();
   const navigate = useNavigate();
+  const location = useLocation();
   const { isLoggedIn, user } = useAppSelector((state) => state.auth);
   const totalItems = useAppSelector((state) => state.cart.totalItems);
+
+  const isHero = location.pathname === '/home' || location.pathname === '/';
 
   const closeDrawer = () => setDrawerOpen(false);
 
@@ -31,14 +34,14 @@ export function Header() {
   };
 
   return (
-    <header className={styles.header}>
+    <header className={clsx(styles.header, isHero && styles.transparent)}>
       <div className={clsx('container', styles.inner)}>
-        <Logo />
+        <Logo variant={isHero ? 'light' : 'dark'} />
 
         <nav className={styles.desktopNav} aria-label="Main navigation">
           <ul className={styles.navList}>
             {NAV_LINKS.map((link) => (
-              <li key={link.to}>
+              <li key={link.to} className={styles.navSlot} style={{ width: link.slotWidth }}>
                 <NavLink
                   to={link.to}
                   className={({ isActive }) => clsx(styles.navLink, isActive && styles.active)}
@@ -68,10 +71,10 @@ export function Header() {
 
           {!isLoggedIn && (
             <div className={clsx(styles.guestActions, styles.desktopOnly)}>
-              <Link to="/register" className={styles.textLink}>
+              <Link to="/register" className={clsx(styles.textLink, isHero && styles.registerLinkOnHero)}>
                 Register
               </Link>
-              <Link to="/login" className={styles.textLink}>
+              <Link to="/login" className={clsx(styles.textLink, styles.loginLink, isHero && styles.loginLinkOnHero)}>
                 Login
               </Link>
             </div>
@@ -79,7 +82,7 @@ export function Header() {
 
           <button
             type="button"
-            className={styles.hamburgerBtn}
+            className={clsx(styles.hamburgerBtn, isHero && styles.hamburgerBtnOnHero)}
             onClick={() => setDrawerOpen(true)}
             aria-label="Open menu"
           >

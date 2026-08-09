@@ -9,9 +9,10 @@ import {
   persistReducer,
   persistStore,
 } from 'redux-persist';
-import storage from 'redux-persist/lib/storage';
+import storage from 'redux-persist/es/storage';
 import authReducer from './auth/authSlice';
 import cartReducer from './cart/cartSlice';
+import dashboardReducer from './dashboard/dashboardSlice';
 import productReducer from './products/productSlice';
 import productsReducer from './products/productsSlice';
 import reviewsReducer from './reviews/reviewsSlice';
@@ -27,6 +28,7 @@ const authPersistConfig = {
 const rootReducer = combineReducers({
   auth: persistReducer(authPersistConfig, authReducer),
   cart: cartReducer,
+  dashboard: dashboardReducer,
   products: productsReducer,
   product: productReducer,
   stores: storesReducer,

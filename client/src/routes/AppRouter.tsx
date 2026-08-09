@@ -6,6 +6,7 @@ import { MedicineStorePage } from '../pages/MedicineStorePage/MedicineStorePage'
 import { MedicinePage } from '../pages/MedicinePage/MedicinePage';
 import { ProductPage } from '../pages/ProductPage/ProductPage';
 import { CartPage } from '../pages/CartPage/CartPage';
+import { DashboardPage } from '../pages/DashboardPage/DashboardPage';
 import { RegisterPage } from '../pages/RegisterPage/RegisterPage';
 import { LoginPage } from '../pages/LoginPage/LoginPage';
 import { NotFoundPage } from '../pages/NotFoundPage/NotFoundPage';
@@ -25,6 +26,7 @@ export function AppRouter() {
         <Route element={<PrivateRoute />}>
           <Route path="/medicine" element={<MedicinePage />} />
           <Route path="/cart" element={<CartPage />} />
+          <Route path="/dashboard" element={<DashboardPage />} />
         </Route>
       </Route>
 

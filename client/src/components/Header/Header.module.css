@@ -1,6 +1,13 @@
 .header {
+  position: relative;
+  z-index: 5;
   background: var(--color-bg);
   border-bottom: 1px solid var(--color-hairline);
+}
+
+.transparent {
+  background: transparent;
+  border-bottom: none;
 }
 
 .inner {
@@ -16,16 +23,28 @@
 
 .navList {
   display: flex;
-  align-items: center;
-  gap: var(--space-8);
+  width: 344px;
+  height: 46px;
+  background-image: url('/icons/nav-track.svg');
+  background-repeat: no-repeat;
+}
+
+.navSlot {
+  display: flex;
+  height: 100%;
 }
 
 .navLink {
-  display: inline-flex;
-  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  margin: 8px;
   border-radius: var(--radius-pill-sm);
   font-size: 14px;
   color: var(--color-text-disabled);
+  white-space: nowrap;
 }
 
 .navLink.active {
@@ -47,7 +66,9 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background: var(--color-surface);
   border: 1px solid var(--color-hairline);
+  box-shadow: 0 -1px 7px var(--shadow-color);
   color: var(--color-text);
 }
 
@@ -59,9 +80,9 @@
   height: 18px;
   padding: 0 4px;
   border-radius: 9px;
-  background: var(--color-danger);
-  color: var(--color-surface);
-  font-size: 11px;
+  background: var(--color-badge-bg);
+  color: var(--color-primary);
+  font-size: 12px;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -92,6 +113,24 @@
   color: var(--color-text);
 }
 
+.loginLink {
+  text-decoration: underline;
+}
+
+.registerLinkOnHero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  border: 1px solid rgba(241, 241, 241, 0.5);
+  border-radius: var(--radius-full);
+  color: #f1f1f1;
+}
+
+.loginLinkOnHero {
+  color: #f1f1f1;
+}
+
 .desktopOnly {
   display: none;
 }
@@ -103,6 +142,10 @@
   width: 40px;
   height: 40px;
   color: var(--color-text);
+}
+
+.hamburgerBtnOnHero {
+  color: var(--color-surface);
 }
 
 @media (min-width: 1440px) {

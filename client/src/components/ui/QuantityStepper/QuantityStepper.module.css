@@ -16,11 +16,10 @@
   justify-content: center;
   width: 20px;
   height: 20px;
-  color: var(--color-text);
+  color: var(--color-primary);
 }
 
 .stepBtn:disabled {
-  color: var(--color-text-muted-40);
   cursor: not-allowed;
 }
 

@@ -85,3 +85,20 @@ export type Order = {
   totalPrice: number;
   createdAt: string;
 };
+
+export type Supplier = {
+  _id: string;
+  name: string;
+  address: string;
+  brand: string;
+  date: string;
+  amount: number;
+  status: 'Active' | 'Deactive';
+};
+
+export type FinanceEntry = {
+  _id: string;
+  name: string;
+  amount: number;
+  type: 'Income' | 'Expense' | 'Error';
+};
