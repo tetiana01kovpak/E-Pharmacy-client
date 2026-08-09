@@ -12,7 +12,15 @@ type CartLineItemProps = {
 export function CartLineItem({ item, onQuantityChange, onRemove }: CartLineItemProps) {
   return (
     <div className={styles.row}>
-      <img src={item.image} alt={item.name} className={styles.thumbnail} width={64} height={64} loading="lazy" />
+      <img
+        src={item.image}
+        alt={item.name}
+        className={styles.thumbnail}
+        width={64}
+        height={64}
+        loading="lazy"
+        referrerPolicy="no-referrer"
+      />
 
       <div className={styles.info}>
         <h3 className={styles.name}>{item.name}</h3>

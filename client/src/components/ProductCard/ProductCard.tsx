@@ -12,7 +12,15 @@ type ProductCardProps = {
 export function ProductCard({ product, onAddToCart }: ProductCardProps) {
   return (
     <article className={styles.card}>
-      <img src={product.image} alt={product.name} className={styles.image} width={200} height={200} loading="lazy" />
+      <img
+        src={product.image}
+        alt={product.name}
+        className={styles.image}
+        width={200}
+        height={200}
+        loading="lazy"
+        referrerPolicy="no-referrer"
+      />
       <h3 className={styles.name}>{product.name}</h3>
       <p className={styles.brand}>{product.brand}</p>
       <Rating value={product.avgRating} variant="stars" />

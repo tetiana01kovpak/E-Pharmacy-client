@@ -48,7 +48,7 @@ export function ProductPage() {
   return (
     <div className={`container ${styles.page}`}>
       <div className={styles.overview}>
-        <img src={product.image} alt={product.name} className={styles.image} />
+        <img src={product.image} alt={product.name} className={styles.image} referrerPolicy="no-referrer" />
 
         <div className={styles.purchaseCard}>
           <h1 className={styles.name}>{product.name}</h1>
