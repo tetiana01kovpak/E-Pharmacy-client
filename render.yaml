@@ -1,11 +1,3 @@
-# Render Blueprint: deploys both the API and the client SPA under one project.
-#
-# The CLIENT_ORIGIN / VITE_API_BASE_URL values below assume Render grants the
-# exact service names below (e-pharmacy-server / e-pharmacy-client), giving
-# URLs https://e-pharmacy-server.onrender.com and https://e-pharmacy-client.onrender.com.
-# If a name is already taken, Render will suffix the slug instead (e.g. -a1b2) —
-# in that case update the corresponding env var below (or in the dashboard) to
-# match the real assigned URL and redeploy.
 services:
   - type: web
     name: e-pharmacy-server

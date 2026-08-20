@@ -15,6 +15,12 @@ export function StoreCard({ store }: StoreCardProps) {
 
   return (
     <article className={styles.card}>
+      <span className={styles.decor} aria-hidden="true">
+        <span className={styles.decorShape1} />
+        <span className={styles.decorShape2} />
+        <span className={styles.decorShape3} />
+      </span>
+
       <div className={styles.header}>
         <h3 className={styles.name}>{store.name}</h3>
         <div className={styles.headerRight}>

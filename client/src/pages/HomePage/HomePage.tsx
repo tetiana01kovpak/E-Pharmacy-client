@@ -8,6 +8,7 @@ import { fetchNearestStores } from '../../redux/stores/storesSlice';
 import { fetchCustomerReviews } from '../../redux/reviews/reviewsSlice';
 import { useAppDispatch, useAppSelector } from '../../redux/hooks';
 import heroPills from '../../assets/hero-pills.png';
+import ctaMedicine from '../../assets/cta-medicine.png';
 import styles from './HomePage.module.css';
 
 const PROMO_BANNERS = [
@@ -85,7 +86,7 @@ export function HomePage() {
       <section className={`container ${styles.ctaSection}`} id="features">
         <div className={styles.ctaBanner}>
           <div className={styles.ctaContent}>
-            <h2 className={styles.ctaTitle}>Add your local pharmacy online now</h2>
+            <h2 className={styles.ctaTitle}>Add the medicines you need online now</h2>
             <p className={styles.ctaText}>
               Enjoy the convenience of having your prescriptions filled from home by connecting with your community
               pharmacy through our online platform.
@@ -96,6 +97,7 @@ export function HomePage() {
               </Button>
             </Link>
           </div>
+          <img className={styles.ctaImage} src={ctaMedicine} alt="" aria-hidden="true" />
         </div>
 
         <ul className={styles.featureList}>

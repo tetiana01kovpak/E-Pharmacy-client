@@ -1,10 +1,47 @@
 .card {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
   background: var(--color-store-card);
+  border: 1px solid var(--color-hairline);
   border-radius: var(--radius-card);
   padding: 40px;
   display: flex;
   flex-direction: column;
   gap: var(--space-14);
+}
+
+.decor {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.decorShape1,
+.decorShape2,
+.decorShape3 {
+  position: absolute;
+  width: 198px;
+  height: 42px;
+  background: rgba(89, 177, 122, 0.08);
+  border-radius: 20px 0 0 20px;
+  transform: rotate(22deg);
+}
+
+.decorShape1 {
+  right: -50px;
+  bottom: 6px;
+}
+
+.decorShape2 {
+  right: -108px;
+  bottom: 96px;
+}
+
+.decorShape3 {
+  right: -34px;
+  bottom: 69px;
 }
 
 .header {

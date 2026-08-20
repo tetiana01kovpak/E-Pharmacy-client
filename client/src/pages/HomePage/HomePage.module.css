@@ -191,14 +191,42 @@
 }
 
 .ctaBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
   background: var(--color-primary);
   border-radius: var(--radius-banner);
-  padding: 48px 32px;
-  color: var(--color-surface);
+  padding: 40px 32px;
+  color: #f1f1f1;
+}
+
+@media (min-width: 1440px) {
+  .ctaBanner {
+    padding: 40px 40px 40px 80px;
+    gap: 19px;
+  }
 }
 
 .ctaContent {
-  max-width: 560px;
+  max-width: 501px;
+}
+
+.ctaImage {
+  display: none;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 608px;
+  aspect-ratio: 608 / 406;
+  height: auto;
+  border-radius: 0 24px 24px 0;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .ctaImage {
+    display: block;
+  }
 }
 
 .ctaTitle {
@@ -209,19 +237,26 @@
 @media (min-width: 1440px) {
   .ctaTitle {
     font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.01em;
   }
 }
 
 .ctaText {
-  margin-top: var(--space-14);
-  font-size: 15px;
-  color: rgba(247, 248, 250, 0.9);
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f1f1f1;
 }
 
 .ctaButton {
-  margin-top: 24px;
-  border-color: var(--color-surface) !important;
-  color: var(--color-surface) !important;
+  margin-top: 40px;
+  height: 44px !important;
+  padding: 13px 50px !important;
+  border-radius: var(--radius-full) !important;
+  border-color: rgba(241, 241, 241, 0.5) !important;
+  font-size: 14px !important;
+  color: #f1f1f1 !important;
 }
 
 .featureList {
